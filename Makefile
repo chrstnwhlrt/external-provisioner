@@ -12,7 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+#GOARCH=arm64
 CMDS=csi-provisioner
 all: build
 
 include release-tools/build.make
+
+REGISTRY_NAME=christianwohlert
